@@ -9,7 +9,7 @@ steps:
     # registry: docker.io
     repo: pavansa/docker-hello-world
     username:
-      from_secret: pavansa
+      from_secret: docker-username
     password:
       from_secret: docker_password
     tags: 
