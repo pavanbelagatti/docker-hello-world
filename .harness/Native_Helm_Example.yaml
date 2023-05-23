@@ -1,0 +1,9 @@
+pipeline:
+  name: "Native Helm Example "
+  identifier: Native_Helm_Example
+  template:
+    templateRef: Native_Helm_Deployment_Template
+    versionLabel: "1.1"
+  tags: {}
+  projectIdentifier: TemplatesDemo
+  orgIdentifier: default
